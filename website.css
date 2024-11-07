@@ -1,0 +1,40 @@
+body{
+    height: 90vh;
+    margin: 0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.banner{
+    height: 80vh;
+    background-image:  url('onepiece.avif'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+.logo{
+ background-blend-mode: color-burn;
+}
+.slide{
+width: 70%;
+
+}
+.round{
+    border-radius: 20px;
+}
+
+.head1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
